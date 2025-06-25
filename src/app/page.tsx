@@ -1,6 +1,9 @@
 import Home from "@/component/Home";
 import { getData } from "./utils/getdata";
 import Header from "@/component/Header";
+import HeroSection from "@/component/HeroSection";
+import ProductGrid from "@/Product/ProductGrid";
+import Promotion from "@/Product/Promotion";
 
 
 
@@ -10,6 +13,8 @@ return (
     <>
     
   <Home />
+  <ProductGrid products={products} />
+  <Promotion />
     </>
   );
 }

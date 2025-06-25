@@ -33,7 +33,7 @@ export default async function Home() {
                   />
                 </div>
               )}
-
+              
               {hero.call_to_action_button?.text && hero.call_to_action_button?.link && (
                 <a
                   href={hero.call_to_action_button.link}
@@ -70,7 +70,7 @@ export default async function Home() {
             </section>
           );
         }
-
+            //view all product button
         // CALL TO ACTION BLOCK
         if (section.call_to_action) {
           const cta = section.call_to_action;
